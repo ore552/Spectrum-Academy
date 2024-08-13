@@ -1,0 +1,170 @@
+/* div{
+    content: "";
+    position: absolute;
+     width: 100%;
+    height: 100%;
+    background: url("https://www.codingnepalweb.com/demos/create-glassmorphism-login-form-html-css/hero-bg.jpg"), #000;
+    background-position: center;
+    background-size: cover;
+} */
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("./images/k2.jpg");
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 560px;
+    width: 95%;
+    height: 80vh;
+    font-size: 2rem;
+    border-radius: 8px;
+    padding: 30px;
+    border: 10px  rgba(0, 0, 0, 0.5);
+    border-style: outset groove ridge inset;
+    backdrop-filter:blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    color: rgba(0, 0, 0, 0.838);
+     /* background-color: red;  */
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+/* h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+} */
+
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #ccc;  
+  margin: 15px 0;
+  
+}
+
+.input-field label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform:translateY(-50%);
+    color: black;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+    font-size: 20px;
+}
+
+.input-field input{
+    width: 100%;
+    /* height: 40px; */
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #000000;
+    padding: 1rem;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 1rem;
+    top: 10px;
+    transform: translateY(-120%);
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+    color:rgb(0, 0, 0);
+}
+
+#remember{
+    accent-color: #000000;
+}
+
+.remember label{
+display: flex;
+align-items: center;
+}
+
+.remember label p{
+    margin-left: 8px;    
+}
+
+
+.wrapper a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.wrapper a:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color: #928383;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    color: #000000;
+    border-color: #000000;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* .hide{
+    display: none;
+} */
+
+@media(max-width:450px){
+    .input-field{
+        margin: 10px 0px;
+    }
+
+    .rememberme{
+        font-size: 1rem;
+    }
+
+    button{
+        padding: 6px 10px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .wrapper{
+        padding: 30px 10px;
+    }
+
+    .h2{
+        font-size: 2rem;
+    }
+}

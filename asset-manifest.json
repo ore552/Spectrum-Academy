@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Spectrum-Academy/static/css/main.f471708f.css",
+    "main.js": "/Spectrum-Academy/static/js/main.bc31181f.js",
+    "static/media/k2.jpg": "/Spectrum-Academy/static/media/k2.bd8b7397249d4f579d64.jpg",
+    "static/media/piccy.jpg": "/Spectrum-Academy/static/media/piccy.6d6c4431b76590f05b2d.jpg",
+    "static/media/piccy2.jpg": "/Spectrum-Academy/static/media/piccy2.c4cdf230ce2b4cee9189.jpg",
+    "index.html": "/Spectrum-Academy/index.html",
+    "main.f471708f.css.map": "/Spectrum-Academy/static/css/main.f471708f.css.map",
+    "main.bc31181f.js.map": "/Spectrum-Academy/static/js/main.bc31181f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f471708f.css",
+    "static/js/main.bc31181f.js"
+  ]
+}
